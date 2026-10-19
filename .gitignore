@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Large precursor matrix (exceeds GitHub 100MB limit, not needed for app)
+data/report.pr_matrix.tsv
+data/temp_si_002.xlsx
+
+# Local environment & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
